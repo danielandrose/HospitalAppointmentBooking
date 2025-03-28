@@ -1,0 +1,55 @@
+.main-login-details-container{
+    margin: 0px;
+    padding:0px;
+}
+
+.login-details-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    margin:3px 0px;
+}
+
+.login-details-container button{
+    border:none;
+    background-color: rgb(55, 135, 240);
+    padding:3px 5px;
+    color:white;
+    border-radius: 1px;
+    font-family:"Poppins", sans-serif;
+    
+}
+
+.login-details-container button:hover{
+    font-size: 14px;
+    background-color: blue;
+}
+
+.hide{
+    visibility: hidden;
+    height:0px;
+    width:0px;
+}
+
+.profile-img{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family:"Poppins", sans-serif;
+}
+
+.profile-img p{
+    margin: 0px;
+    padding:0px;
+    font-size: 11px;
+}
+
+.profile-img img{
+    height:50px;
+    width:50px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(160, 160, 160, 0.19), 0 8px 20px 0 rgba(160, 160, 160, 0.19);
+}
