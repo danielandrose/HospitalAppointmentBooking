@@ -10,9 +10,9 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    padding:8px 5px;
-    width:50%;
-    margin: 10px 0px;
+    padding:4px 3px;
+    width:35%;
+    margin: 5px 0px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     border-radius: 0px;
 }
@@ -27,7 +27,7 @@
 input{
     border:none;
     width:80%;
-    padding:5px 3px;
+    padding:4px 3px;
     font-size: 15px;
 }
 .search-icon{
@@ -43,10 +43,10 @@ input{
     width:100%;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     column-gap: 15px;
     row-gap: 15px;
-
-    max-height: 400px;
+    max-height: 750px;
+    padding-bottom: 50px;
     overflow-y: auto;
 }

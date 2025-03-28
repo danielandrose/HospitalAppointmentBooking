@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import "../css-files/LoginDetails.css"
 
 export default function LoginDetails() {
-    const [isLoggedIn,setIsLoggedIn]=useState(true);
+    const [isLoggedIn,setIsLoggedIn]=useState(false);
   return (
     <div className="main-login-details-container">
         <div className={isLoggedIn?"login-details-container hide":"login-details-container"}>

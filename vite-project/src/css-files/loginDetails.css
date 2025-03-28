@@ -4,7 +4,7 @@
     margin: 0px 80px;
     border-radius: 30px;
 }
-.main-login-details-container:hover{
+.profile-img:hover{
     background-color: rgb(156, 156, 156);
 }
 
@@ -13,22 +13,22 @@
     justify-content: space-around;
     align-items: center;
     width:100%;
-    margin:3px 0px;
+    margin:10px 0px;
 }
 
 .login-details-container button{
     border:none;
     background-color: rgb(55, 135, 240);
-    padding:3px 5px;
+    padding:4px 7px;
+    margin:0px 5px;
+    width:65px;
     color:white;
-    border-radius: 1px;
+    border-radius: 5px;
     font-family:"Poppins", sans-serif;
-    
 }
 
 .login-details-container button:hover{
-    font-size: 14px;
-    background-color: blue;
+    background-color:blue;
 }
 
 .hide{
