@@ -3,9 +3,10 @@
     flex-direction: column;
     align-items: center;
     padding:0px 5px;
-    gap:10px;
-    max-height: 800px;
+    gap:13px;
+    max-height: 100vh;
     overflow-y: auto;
+    padding-bottom: 100px;
 }
 
 /* ------------NewCard.css------------- */
@@ -16,8 +17,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(160, 160, 160, 0.19), 0 8px 20px 0 rgba(160, 160, 160, 0.19);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     padding:0px 5px;
+    padding-bottom: 5px;
 }
 .news-card video{
     height:140px;
@@ -26,9 +28,11 @@
 .news-card h1{
     font-size: 18px;
     font-family: "Poppins", sans-serif;
+    padding:0px 5px;
 }
 .news-card p{
     font-size: 12px;
     font-family: "Poppins", sans-serif;
     text-align: justify;
+    padding:3px 5px;
 }

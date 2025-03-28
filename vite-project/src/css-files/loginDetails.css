@@ -1,6 +1,11 @@
 .main-login-details-container{
     margin: 0px;
     padding:0px;
+    margin: 0px 80px;
+    border-radius: 30px;
+}
+.main-login-details-container:hover{
+    background-color: rgb(156, 156, 156);
 }
 
 .login-details-container{

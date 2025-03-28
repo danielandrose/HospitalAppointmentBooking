@@ -21,7 +21,7 @@ const newsArticles = [
   {
     title: "Mental Health Matters",
     description: "Experts emphasize the importance of mental well-being and daily stress management.",
-  },
+  }
 ];
 
 export default function News() {

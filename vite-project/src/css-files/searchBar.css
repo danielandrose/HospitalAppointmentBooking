@@ -14,7 +14,7 @@
     width:50%;
     margin: 10px 0px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 50px;
+    border-radius: 0px;
 }
 
 .input-box{
@@ -32,9 +32,12 @@ input{
 }
 .search-icon{
     height: 100%;
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(255, 255, 255);
     padding:5px 5px;
     border-radius: 10px;
+}
+.search-icon:hover{
+    background-color: rgb(124, 124, 124);
 }
 .doctors-detail{
     width:100%;
