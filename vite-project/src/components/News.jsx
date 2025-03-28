@@ -14,7 +14,7 @@ const newsArticles = [
     description: "Drink plenty of water, eat a balanced diet, and exercise regularly to maintain good health.",
   },
   {
-    img:"https://videos.pexels.com/video-files/3191289/3191289-uhd_2732_1440_25fps.mp4",
+    img:"https://videos.pexels.com/video-files/8375431/8375431-uhd_2732_1440_25fps.mp4",
     title: "Seasonal Flu Awareness",
     description: "Get your flu shots early this year to stay protected against the upcoming flu season.",
   },
