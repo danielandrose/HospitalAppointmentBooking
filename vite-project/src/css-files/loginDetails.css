@@ -32,9 +32,7 @@
 }
 
 .hide{
-    visibility: hidden;
-    height:0px;
-    width:0px;
+    display:none
 }
 
 .profile-img{
@@ -57,4 +55,11 @@
     width:50px;
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(160, 160, 160, 0.19), 0 8px 20px 0 rgba(160, 160, 160, 0.19);
+}
+
+.open{
+    display:flex;
+}
+.close{
+    display: none;
 }

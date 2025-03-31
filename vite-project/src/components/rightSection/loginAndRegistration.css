@@ -1,0 +1,80 @@
+.hide{
+    height:0px;
+    width:0px;
+}
+.main-loginAndRegistration{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height:100vh;
+    z-index: 1;
+    backdrop-filter: blur(2px);
+}
+.sub-loginAndRegistration{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width:45%;
+    height:50%;
+    border: 1px solid rgb(185, 185, 185);
+}
+.change-options{
+    width:100%;
+}
+.detail-element label{
+    width:40%;
+    font-family: "Poppins", sans-serif;
+}
+.detail-element input{
+    font-family: "Poppins", sans-serif;
+    width:60%;
+    border:1px solid rgb(168, 168, 168);
+}
+.form{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.detail-element{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.change-options button{
+    background-color: white;
+    width:50%;
+    height:40px;
+    font-family: "Poppins", sans-serif;
+    border:1px solid black;
+    background-color: var(--primary-color);
+    font-size: 15px;
+    color:white
+}
+.change-options button:hover{
+    background-color: rgb(0, 0, 110);
+}
+.submit{
+    background-color: white;
+    width:100px;
+    font-family: "Poppins", sans-serif;
+    border:none;
+    padding:5px 10px;
+    margin:10px auto;
+    background-color: var(--primary-color);
+}
+.sub-loginAndRegistration svg{
+    height: 20px;
+    width:20px;
+    margin-bottom:5px
+}
+.sub-loginAndRegistration svg:hover{
+    background-color: rgb(202, 202, 202);
+}

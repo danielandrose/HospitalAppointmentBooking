@@ -1,9 +1,9 @@
 import React from 'react'
 import "../css-files/hero.css"
 import Navigation from "./Navigation.jsx"
-import MiddleSection from "./MiddleSection.jsx"
+import MiddleSection from "../components/MiddleSection/MiddleSection.jsx"
 import LoginDetails from './LoginDetails.jsx'
-import News from './News.jsx'
+import News from '../components/rightSection/News.jsx'
 
 function Hero(){
     return(
